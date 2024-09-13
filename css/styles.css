@@ -134,7 +134,7 @@ button input a {
   background-color: var(--dark-section-color);
 }
 
-.hero>.section {
+.hero.section {
 padding: 188px 0;
 
 }
@@ -317,6 +317,10 @@ margin-bottom: 72px;
 
 .portfolio-item {
   width: calc((100% - 2*24px) / 3);
+  border-top: none;
+  border-width: 0px 1px 1px 1px; 
+  border-style: solid;
+  border-color: rgba(231, 233, 252, 1);
 
 
 }
@@ -325,10 +329,7 @@ margin-bottom: 72px;
 
 .portfolio-desc-section{ 
   padding: 32px 16px;
-  border-top: none;
-  border-width: 0px 1px 1px 1px; 
-  border-style: solid;
-  border-color: rgba(231, 233, 252, 1);
+
 }
 
 .portfolio-subtitle {
@@ -351,12 +352,11 @@ margin-bottom: 72px;
 /*---------------------------------footer---------------------------------*/
 
 .footer {
+  padding: 100px 0;
+
   background-color: var(--dark-section-color);
 }
 
-.footer .container { 
-  padding: 100px 0;
-}
 
 .footer-logo {
   display: inline-block;
